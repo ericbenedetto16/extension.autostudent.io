@@ -1,0 +1,14 @@
+{
+    "name": "AutoStudent",
+    "version": "1.0",
+    "description": "Online Classes Made Easy!",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": ["alarms", "notifications"],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
